@@ -1,0 +1,307 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    background: rgb(177, 176, 176);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenido
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    width: 100%;
+    color: white;
+
+}
+
+.contenido .ladoizq
+{
+    position: relative;
+    background: rgb(79, 111, 153);
+    padding: 40px;
+}
+
+img
+{
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.nombre-apellido
+{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.informacion
+{
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.texto-informacion
+{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.informacion-contacto
+{
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+
+.lista-contacto
+{
+    position: relative;
+    font-size: 15px;
+}
+
+.lista-contacto ul li
+{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.icono
+{
+    position: relative;
+    font-size: 15px;
+    color: rgb(194, 197, 34);
+    padding-right: 10px;
+}
+
+.lista-contacto ul li
+{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+
+.a
+{
+    margin-top: 20px;
+}
+
+.lista-contacto ul .e
+{
+    margin-bottom: 25px;
+}
+
+
+.informacion-educacion
+{
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+.lista-educacion
+{
+    position: relative;
+    font-size: 15px;
+}
+
+.lista-educacion ul li
+{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+
+.lista-educacion h5
+{
+    font-size: 18px;
+    color: rgb(152, 226, 31);
+    padding-bottom: 3px;
+}
+
+.lista-educacion .texto
+{
+    font-size: 19px;
+}
+
+.educacion-2
+{
+    font-size: 15px;
+    padding-left: 35px;
+}
+
+.lista-educacion ul .a
+{
+    margin-top: 15px;
+}
+
+.lista-educacion ul .e
+{
+    margin-bottom: 25px;
+}
+
+.informacion-vehiculos
+{
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.lista-vehiculo ul li
+{
+    list-style: none;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+.contenido  .ladoderecho
+{
+    position: relative;
+    background-color: rgb(253, 253, 253);
+    padding: 40px;
+    color: black;
+}
+
+.informacion-experiencia
+{
+    margin-bottom: 25px;
+}
+
+.informacion-experiencia .titulo
+{
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.texto-experiencia 
+{
+    text-transform: uppercase;
+}
+
+.texto-experiencia ul li
+{
+    list-style: none;
+    padding-bottom: 15px ;
+    
+}
+
+.texto-experiencia ul li .borde_2
+{
+    background-color: rgb(79, 111, 153);
+    text-align: center;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+.habilidades
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.habilidades .titulo
+{
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.texto-habilidades
+{
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.info-habilidades
+{
+    color: rgb(101, 102, 102);
+    text-transform: NONE;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.texto-habilidades ul li 
+{
+    display: grid;
+    grid-template-columns: 40% 60%;    
+}
+
+.conocimientos
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.conocimientos .titulo
+{
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.texto-conocimeintos h3
+{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.texto-conocimeintos ul li h4
+{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 3px;   
+}
+
+.texto-conocimeintos ul li p
+{
+    font-size: 13px;
+    padding-bottom: 8px;
+    color: black;
+}
+
